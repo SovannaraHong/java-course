@@ -19,20 +19,20 @@ public class JavaApplication2 {
 
 //    
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter Your name");
+        System.out.print("Enter Your name  :");
         String userName = scanner.nextLine();
         System.out.println("Hello" + userName);
-        System.out.println("Enter Your Age...");
+        System.out.print("Enter Your Age...: ");
         int ages = scanner.nextInt();
 
         if (ages > 18) {
-            System.out.println("Enter Your blood level:");
+            System.out.print("Enter Your blood level:");
             int blood = scanner.nextInt();
             if (blood > 3) {
                 System.out.println("enter your kilo");
                 double kilo = scanner.nextInt();
-                System.out.println("Your blood is " + blood);
-                System.out.println("Your kilo is " + kilo);
+                System.out.print("Your blood is " + blood);
+                System.out.print("Your kilo is " + kilo);
 
             } else {
                 System.out.println("You can not be donate blood");
