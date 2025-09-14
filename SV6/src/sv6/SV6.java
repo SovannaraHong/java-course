@@ -24,8 +24,7 @@ public class SV6 {
 
         System.out.println("What do you want to buy");
         Message=scanner.nextLine();
-        if(Message)
-        
+  
        
 
     }
