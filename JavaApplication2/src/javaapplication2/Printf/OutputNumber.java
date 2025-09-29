@@ -21,6 +21,9 @@ public class OutputNumber {
         System.out.printf("Result2 %.2f\n", price2);
         System.out.printf("Result3 %.2f\n", price3);
         System.out.printf("Result4 %(.2f\n",price4);
+        
+        
+        
 
     }
 
